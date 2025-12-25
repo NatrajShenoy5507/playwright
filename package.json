@@ -1,14 +1,22 @@
 {
   "name": "playwright",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatrajShenoy5507/playwright.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/NatrajShenoy5507/playwright/issues"
+  },
+  "homepage": "https://github.com/NatrajShenoy5507/playwright#readme",
   "devDependencies": {
-    "@playwright/test": "^1.45.2",
-    "@types/node": "^20.14.11"
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
   }
 }
