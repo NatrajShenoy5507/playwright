@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test":"npx playwright test",
+    "test:chrome":"npx playwright test --project chromium",
+    "test:smoke":"npx playwright test --project chromium --grep @Smoke"
+    
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NatrajShenoy5507/playwright.git"
